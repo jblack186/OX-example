@@ -5,6 +5,8 @@ import Hero from './Hero';
 import Product from './Product';
 import MidCarousel from './MidCarousel';
 import Middle from './Middle';
+import Form from './Form';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Product />
       <Middle />
       <MidCarousel />
+      <Form />
+      <Footer />
     </div>
   );
 }

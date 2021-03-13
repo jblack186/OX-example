@@ -1,0 +1,69 @@
+$primaryColor: #559c4e;
+$secondaryColor: #f58220;
+$thirdColor: #352336;
+$tab: #38c764;
+
+
+.form_container {
+  position: relative;
+  background: $thirdColor;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+
+
+  h3 {
+    color: white;
+    margin: 0;
+  }
+
+  input {
+    border-radius: 100px;
+    border: none;
+    width: 300px;
+    height: 40px;
+  }
+  button {
+    height: 40px;
+    width: 100px;
+    margin-left: 8px;
+    border-radius: 100px;
+    border: none;
+    background: $primaryColor;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+  }
+
+}
+
+.triangle-left {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 150px solid white;
+  border-bottom: 100px solid transparent;
+  top: 0;
+  left: 0;
+}
+
+.triangle-right {
+  position: absolute;
+
+  width: 0;
+  height: 0;
+    border-top: 100px solid transparent;
+    border-right: 150px solid white;
+    border-bottom: 100px solid transparent;
+
+
+  top: 0;
+  right: 0;
+}

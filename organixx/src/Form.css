@@ -1,0 +1,67 @@
+.form_container {
+  position: relative;
+  background: #352336;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.form_container h3 {
+  color: white;
+  margin: 0;
+}
+
+.form_container input {
+  border-radius: 100px;
+  border: none;
+  width: 300px;
+  height: 40px;
+}
+
+.form_container button {
+  height: 40px;
+  width: 100px;
+  margin-left: 8px;
+  border-radius: 100px;
+  border: none;
+  background: #559c4e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.triangle-left {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 150px solid white;
+  border-bottom: 100px solid transparent;
+  top: 0;
+  left: 0;
+}
+
+.triangle-right {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-right: 150px solid white;
+  border-bottom: 100px solid transparent;
+  top: 0;
+  right: 0;
+}
+/*# sourceMappingURL=Form.css.map */
