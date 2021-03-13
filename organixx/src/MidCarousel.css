@@ -1,0 +1,106 @@
+.carousel_container {
+  background: whitesmoke;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: -1;
+  z-index: 99999999999;
+}
+
+.carousel_container h3 {
+  padding-bottom: 50px;
+  color: #f58220;
+  font-size: 2.5rem;
+}
+
+.carousel_container .product_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99999999999;
+}
+
+.carousel_container .product_container {
+  width: 20%;
+  background: white;
+  height: 450px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.carousel_container .product_container img {
+  width: 150px;
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.carousel_container .product_container .banner {
+  background: #559c4e;
+  height: 50px;
+  width: 95%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25%;
+}
+
+.carousel_container .product_container .banner.first {
+  background: #352336;
+}
+
+.carousel_container .product_container .banner.third {
+  background: #f58220;
+}
+
+.carousel_container .product_container .box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f3e1e1;
+  top: 15px;
+  left: 15px;
+  z-index: -9999;
+}
+
+.carousel_container .prod_text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: right;
+  padding-bottom: 50px;
+  line-height: 25px;
+}
+/*# sourceMappingURL=MidCarousel.css.map */

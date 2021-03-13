@@ -10,6 +10,7 @@ const Hero = () => {
 
   return (
     <section className='hero_container'>
+      
       <div className='hero_flex'>
       <div className='hero_content'>
       <div className='hero_header'>
