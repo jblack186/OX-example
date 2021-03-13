@@ -1,0 +1,144 @@
+$primaryColor: #559C4E;
+$secondaryColor: #f58220;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  color: white;
+background-image: linear-gradient(315deg, $primaryColor 50%, #c1ad98 74%);
+ 
+   position: relative;
+  .left_header {
+    width: 40%;
+    align-self: flex-start;
+    
+
+
+  .top_left_header {
+    font-size: .9rem;
+    word-spacing: .5em;
+    width: 80%;
+
+  }
+
+  .left_line {
+    width: 100%;
+    opacity: .5;
+    font-weight: 100;
+    border-top: .3px solid white;
+    padding: 5px 0px 5px 0px;
+  }
+
+
+
+  .bottom_left_header {
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+
+    li {
+      list-style: none;
+    }
+
+      .list_lines {
+        height: 15px;
+        width: 1px;
+        border-left: 1px solid white;
+        opacity: .5;
+
+      }
+    }
+
+
+}
+
+.mid_header {
+  width: 20;
+
+  img {
+    width: 30px;
+  }
+
+}
+
+.right_header {
+  width: 40%;
+  align-self: flex-start;
+
+  .top_right_header {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .list_lines {
+    height: 15px;
+    width: 1px;
+    border-left: 1px solid white;
+    opacity: .5;
+
+  }
+
+
+  .right_line {
+    width: 100%;
+    border-top: 1px solid white;
+    padding: 5px 0px 5px 0px;
+    opacity: .5;
+
+
+  }
+
+  .bottom_right_header {
+    button {
+      background: transparent;
+      color: $secondaryColor;
+      border: 1px solid $secondaryColor;
+      padding: .8em;
+      cursor: pointer;
+      transition-duration: .5s;
+
+    }
+    button:hover {
+      color: white;
+      background: $secondaryColor;
+    }
+
+  }
+
+
+}
+}
+
+.shape {
+  position: absolute; 
+  content: '';
+  width: 250px;
+  height: 50px;
+background-image: linear-gradient(315deg, $primaryColor 100%, $secondaryColor 74%);
+  
+  
+     color: white;
+  bottom: -3em;
+  z-index: 100;
+  right: 50%;
+  margin-right: -125px;
+  border-radius: 0px 0px 90px 90px / 0px 0px 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  h1 {
+    padding-bottom: 15px;
+  }
+}
+
+

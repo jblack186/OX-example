@@ -1,0 +1,118 @@
+.hero_container {
+  background: url("./img/Artboard.png");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.hero_flex {
+  margin: 0 auto;
+  width: 90%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-left: -45%;
+}
+
+.hero_content {
+  left: 100px;
+  color: white;
+  text-align: left;
+}
+
+.hero_content h1 {
+  font-size: 3rem;
+}
+
+.hero_content h2 {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.hero_content h2 span {
+  color: #559C4E;
+}
+
+.hero_content p {
+  text-align: left;
+  line-height: 29px;
+  padding-bottom: 50px;
+}
+
+.hero_content button {
+  text-align: left;
+  background: transparent;
+  border: 2px solid #559C4E;
+  color: white;
+  padding: 15px;
+  border-radius: 100px;
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.hero_content button .font-icon-arrow {
+  padding-left: 3px;
+}
+
+.hero_content button:hover {
+  background: #559C4E;
+}
+
+.hero_content .hero_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 80px;
+}
+
+.hero_content .hero_header img {
+  padding-right: 15px;
+  height: 30px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icons .first {
+  color: #559C4E;
+}
+
+.font-icon {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 1.7rem;
+}
+
+.hero_supp {
+  position: absolute;
+  bottom: -120px;
+  right: 200px;
+  width: 300px;
+}
+/*# sourceMappingURL=Hero.css.map */
