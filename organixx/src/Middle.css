@@ -1,0 +1,52 @@
+.middle_container {
+  background: url("./img/grass.png");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-color: linear-gradient(#559c4e, #352336);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.middle_container p {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.middle_container .tab {
+  position: absolute;
+  bottom: -25px;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 50%;
+  background: url("./img/grass.png");
+  background-size: cover;
+  background-position: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.middle_container .tab .tab_arrow {
+  padding-bottom: 10px;
+  color: white;
+}
+/*# sourceMappingURL=Middle.css.map */

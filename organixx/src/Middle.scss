@@ -1,0 +1,47 @@
+$primaryColor: #559c4e;
+$secondaryColor: #f58220;
+$thirdColor: #352336;
+$tab: #38c764;
+
+.middle_container {
+  background: url('./img/grass.png');
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-color: linear-gradient($primaryColor, $thirdColor);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  p {
+  font-size: 3rem;
+  font-weight: 200;
+  }
+
+
+  .tab {
+    position: absolute;
+    bottom: -25px;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    border-radius: 50%;
+    background: url('./img/grass.png');
+    background-size: cover;
+    background-position: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+
+
+    .tab_arrow {
+      padding-bottom: 10px;
+      color: white;
+    }
+
+  }
+}
