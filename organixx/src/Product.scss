@@ -1,5 +1,7 @@
 $primaryColor: #559c4e;
 $secondaryColor: #f58220;
+$tab: #38c764;
+
 
 .product_container {
   width: 80%;
@@ -106,7 +108,7 @@ $secondaryColor: #f58220;
       padding: 50px;
   
       .juice {
-        color: black;
+        color: $secondaryColor;
         font-size: 3rem;
       }
     }

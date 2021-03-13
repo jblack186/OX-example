@@ -1,0 +1,38 @@
+$primaryColor: #559c4e;
+$secondaryColor: #f58220;
+$thirdColor: #352336;
+$tab: #38c764;
+
+
+.footer_container {
+  position: relative;
+  background:  $primaryColor;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  height: 200px;
+
+  .footer_header {
+    width: 25%;
+  }
+
+  .footer_icons {
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+    .footer_font_icon {
+      font-size: 2rem;
+    }
+  }
+  .footer_para {
+    width: 25%;
+    font-size: .9rem;
+    color: black;
+  }
+}
+
