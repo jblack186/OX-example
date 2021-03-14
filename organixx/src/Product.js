@@ -10,7 +10,12 @@ const Product = () => {
 
   return (
     <section className='product_container'>
+      <div className='product_header_container'>
       <h3>Products</h3>
+      <div className='mid_right'></div>
+      <div className='header_right'></div>
+
+      </div>
       <div className='product_one'>
       <div className='juice_box_left'>
       <FontAwesomeIcon className="juice" icon={faLeaf} />

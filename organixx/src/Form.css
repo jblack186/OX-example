@@ -1,6 +1,6 @@
 .form_container {
   position: relative;
-  background: #352336;
+  background: url("./img/form.png");
   background-size: cover;
   background-position: center center;
   height: 200px;
@@ -20,8 +20,20 @@
 }
 
 .form_container h3 {
+  font-size: 2rem;
   color: white;
   margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .form_container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.form_container .show {
+  display: block;
+  color: yellow;
 }
 
 .form_container input {
@@ -60,6 +72,12 @@
           transform: scale(0.9);
 }
 
+@media only screen and (max-width: 600px) {
+  .form_container button {
+    margin-top: 5px;
+  }
+}
+
 .triangle-left {
   position: absolute;
   width: 0;
@@ -71,6 +89,12 @@
   left: 0;
 }
 
+@media only screen and (max-width: 900px) {
+  .triangle-left {
+    display: none;
+  }
+}
+
 .triangle-right {
   position: absolute;
   width: 0;
@@ -80,5 +104,46 @@
   border-bottom: 100px solid transparent;
   top: 0;
   right: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .triangle-right {
+    display: none;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  position: absolute;
+  -webkit-animation: mymove 5s;
+          animation: mymove 5s;
+}
+
+.apple {
+  color: white;
+  font-size: 2rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+@-webkit-keyframes mymove {
+  0% {
+    left: 500px;
+  }
+  100% {
+    left: 3300px;
+  }
+}
+
+@keyframes mymove {
+  0% {
+    left: 500px;
+  }
+  100% {
+    left: 3300px;
+  }
 }
 /*# sourceMappingURL=Form.css.map */

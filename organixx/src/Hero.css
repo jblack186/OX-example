@@ -6,6 +6,12 @@
   position: relative;
 }
 
+@media only screen and (max-width: 600px) {
+  .hero_container {
+    background-size: contain;
+  }
+}
+
 .hero_flex {
   margin: 0 auto;
   width: 90%;
@@ -21,6 +27,14 @@
   margin-left: -45%;
 }
 
+@media only screen and (max-width: 600px) {
+  .hero_flex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .hero_content {
   left: 100px;
   color: white;
@@ -29,6 +43,13 @@
 
 .hero_content h1 {
   font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero_content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
 }
 
 .hero_content h2 {
@@ -40,10 +61,23 @@
   color: #559C4E;
 }
 
+@media only screen and (max-width: 600px) {
+  .hero_content h2 {
+    font-size: 2rem;
+  }
+}
+
 .hero_content p {
   text-align: left;
   line-height: 29px;
   padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero_content p {
+    width: 85%;
+    line-height: 25px;
+  }
 }
 
 .hero_content button {
@@ -90,6 +124,12 @@
   height: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+  .hero_content .hero_header {
+    padding-bottom: 0px;
+  }
+}
+
 .icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,10 +138,27 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  cursor: pointer;
 }
 
 .icons .first {
   color: #559C4E;
+}
+
+@media only screen and (max-width: 600px) {
+  .icons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    height: 50%;
+  }
 }
 
 .font-icon {
@@ -109,10 +166,28 @@
   font-size: 1.7rem;
 }
 
+.font-icon:hover {
+  color: white;
+}
+
 .hero_supp {
   position: absolute;
   bottom: -120px;
   right: 200px;
   width: 300px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero_supp {
+    right: 0;
+    top: 50%;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .hero_supp {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Hero.css.map */

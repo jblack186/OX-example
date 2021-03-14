@@ -38,4 +38,16 @@
   font-size: .9rem;
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer_container .footer_para {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=Footer.css.map */
