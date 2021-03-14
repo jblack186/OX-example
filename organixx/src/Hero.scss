@@ -1,3 +1,6 @@
+
+
+
 $primaryColor: #559C4E;
 $secondaryColor: #f58220;
 
@@ -9,6 +12,15 @@ $secondaryColor: #f58220;
   height: 90vh;
   position: relative;
 }
+
+@media only screen and (max-width:600px) {
+  .hero_container {
+    background-size: contain;
+
+    
+  }
+}
+
 
 .hero_flex {
   margin: 0 auto;
@@ -23,6 +35,17 @@ $secondaryColor: #f58220;
 
 }
 
+@media only screen and (max-width:600px) {
+  .hero_flex {
+    justify-content: space-between;
+
+
+  }
+}
+
+
+
+
 .hero_content {
   left: 100px;
   color: white;
@@ -35,6 +58,17 @@ $secondaryColor: #f58220;
     font-size: 3rem;
   }
 
+  @media only screen and (max-width:600px) {
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+
+  
+      
+    }
+  }
+  
+
   h2 {
     text-align: left;
     font-size: 2.5rem;
@@ -45,11 +79,33 @@ $secondaryColor: #f58220;
     }
   }
 
+  @media only screen and (max-width:600px) {
+    h2 {
+      font-size: 2rem;
+  
+      
+    }
+  }
+  
+
   p {
     text-align: left;
     line-height: 29px;
     padding-bottom: 50px;
   }
+
+  @media only screen and (max-width:600px) {
+    p {
+      width: 85%;
+      line-height: 25px;
+
+  
+      
+    }
+  }
+
+
+  
 
   button {
     text-align: left;
@@ -87,12 +143,21 @@ $secondaryColor: #f58220;
     align-items: center;
     padding-bottom: 80px;
 
+  
+
     img {
       padding-right: 15px;
       height: 30px;
     }
     
   }
+  @media only screen and (max-width:600px) {
+    .hero_header {
+      padding-bottom: 0px;
+
+    }
+  }
+
 
 
 }
@@ -101,12 +166,26 @@ $secondaryColor: #f58220;
   display: flex;
   width: 150px;
   justify-content: space-between;
+  cursor: pointer;
 
   .first {
     color: $primaryColor;
   }
 
 }
+
+@media only screen and (max-width:600px) {
+  .icons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 50%;
+
+  }
+}
+
 
 .font-icon {
   color: rgba(255, 255, 255, 0.2);
@@ -115,10 +194,31 @@ $secondaryColor: #f58220;
 
 }
 
+.font-icon:hover {
+  color: white;
+}
+
+
 .hero_supp {
   position: absolute;
   bottom: -120px;
   right: 200px;
   width: 300px;
+
 }
+
+@media only screen and (max-width:1200px) {
+  .hero_supp {
+    right: 0;
+    top: 50%;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width:950px) {
+  .hero_supp {
+    display: none;
+  }
+}
+
 

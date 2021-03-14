@@ -22,6 +22,12 @@
   font-weight: 200;
 }
 
+@media only screen and (max-width: 600px) {
+  .middle_container p {
+    font-size: 2.5rem;
+  }
+}
+
 .middle_container .tab {
   position: absolute;
   bottom: -25px;
@@ -48,5 +54,11 @@
 .middle_container .tab .tab_arrow {
   padding-bottom: 10px;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .middle_container .tab {
+    background-position: right;
+  }
 }
 /*# sourceMappingURL=Middle.css.map */

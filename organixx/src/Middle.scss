@@ -21,6 +21,17 @@ $tab: #38c764;
   font-weight: 200;
   }
 
+  @media only screen and (max-width:600px) {
+    p{
+      font-size: 2.5rem;
+
+  
+      
+    }
+  }
+
+
+
 
   .tab {
     position: absolute;
@@ -43,6 +54,17 @@ $tab: #38c764;
       padding-bottom: 10px;
       color: white;
     }
+    
 
   }
+
+  @media only screen and (max-width:600px) {
+    .tab{
+      background-position: right;
+
+  
+      
+    }
+  }
+
 }

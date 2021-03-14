@@ -9,10 +9,39 @@ $tab: #38c764;
   text-align: left;
   margin-bottom: 100px;
 
+
+  .product_header_container {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .mid_right {
+    width: 15%;
+    padding: 50px;
+
+
+  }
+
+
+  .header_right {
+    width: 50%;
+
+  }
+
+  @media only screen and (max-width:600px) {
+    .mid_right{
+      display: none;
+
+  
+      
+    }
+  }
+
+
   h3 {
     margin: 0px;
     font-size: 1.5rem;
-    width: min-content;
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
     height: 100px;
@@ -22,10 +51,13 @@ $tab: #38c764;
     align-items: center;
     padding: 50px;
     
+    
   }
 
   .product_one {
     display: flex;
+    justify-content: center;
+
     .juice_box_left {
       margin-top: 0px;
       background: $primaryColor;
@@ -89,10 +121,20 @@ $tab: #38c764;
         font-weight: bold;
       }
     }
+    @media only screen and (max-width:600px) {
+      .product_one_text {
+        display: none;
+  
+    
+        
+      }
+    }
+  
   }
 
   .product_two {
     display: flex;
+    justify-content: center;
     .juice_box_left {
       margin-top: 0px;
       width: min-content;
@@ -112,6 +154,8 @@ $tab: #38c764;
         font-size: 3rem;
       }
     }
+  
+
 
     .product_two_img {
       box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -154,6 +198,25 @@ $tab: #38c764;
         font-weight: bold;
       }
     }
+    @media only screen and (max-width:600px) {
+      .product_two_text {
+        display: none;
+  
+    
+        
+      }
+    }
+  
+
   }
+  @media only screen and (max-width:600px) {
+    .product_two {
+      flex-direction: row-reverse;
+
+  
+      
+    }
+  }
+
   
 }

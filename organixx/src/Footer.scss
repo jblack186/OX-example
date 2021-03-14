@@ -36,3 +36,14 @@ $tab: #38c764;
   }
 }
 
+@media only screen and (max-width:600px){
+  .footer_container {
+    flex-direction: column;
+
+    .footer_para {
+      width: 100%;
+    }
+  }
+}
+
+

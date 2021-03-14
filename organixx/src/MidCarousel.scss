@@ -4,7 +4,7 @@ $thirdColor: #352336;
 
 .carousel_container {
   background: whitesmoke;
-  height: 800px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,6 +30,8 @@ $thirdColor: #352336;
   }
   
   .product_container {
+    margin-top: 50px;
+
     width: 20%;
     background: white;
     height: 450px;
@@ -63,6 +65,21 @@ $thirdColor: #352336;
 
 
     }
+
+    @media only screen and (max-width:600px) {
+      .banner {
+        width: 80%; 
+      }
+    }
+
+    @media only screen and (max-width:850px)and (max-height:400px) {
+      .banner {
+        display: none;
+      }
+    }
+  
+
+  
     
     .banner.first {
       background: $thirdColor;
@@ -83,6 +100,27 @@ $thirdColor: #352336;
   
   }
 
+  @media only screen and (max-width:850px)and (max-height:400px) {
+    .product_container {
+      width: 30%;
+
+      img {
+        top: 0px;
+      }
+    }
+  }
+
+
+  @media only screen and (max-width:600px) {
+    .product_container {
+      width: 80%;
+  
+  
+      
+    }
+  }
+  
+
   .prod_text {
     width: 80%;
     margin: 0 auto;
@@ -95,4 +133,14 @@ $thirdColor: #352336;
 
 
 }
+
+@media only screen and (max-width:600px) {
+  .product_flex {
+    flex-direction: column;
+
+
+    
+  }
+}
+
 

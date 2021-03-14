@@ -6,7 +6,7 @@ $tab: #38c764;
 
 .form_container {
   position: relative;
-  background: $thirdColor;
+  background: url('./img/form.png');
   background-size: cover;
   background-position: center center;
   height: 200px;
@@ -18,9 +18,26 @@ $tab: #38c764;
 
 
   h3 {
+    font-size: 2rem;
     color: white;
     margin: 0;
   }
+
+  @media only screen and (max-width:600px) {
+    h3 {
+      font-size: 1.5rem;
+  
+  
+      
+    }
+  }
+  
+  
+  .show {
+    display: block;
+    color: yellow;
+  }
+
 
   input {
     border-radius: 100px;
@@ -52,6 +69,15 @@ $tab: #38c764;
     background: $tab;
     transform: scale(.9);
   }
+  @media only screen and (max-width:600px) {
+    button {
+      margin-top: 5px;
+  
+  
+      
+    }
+  }
+  
 
 }
 
@@ -66,6 +92,17 @@ $tab: #38c764;
   left: 0;
 }
 
+@media only screen and (max-width:900px) {
+  .triangle-left {
+    display: none;
+
+
+    
+  }
+}
+
+
+
 .triangle-right {
   position: absolute;
 
@@ -78,4 +115,35 @@ $tab: #38c764;
 
   top: 0;
   right: 0;
+}
+
+@media only screen and (max-width:900px) {
+  .triangle-right {
+    display: none;
+
+
+    
+  }
+}
+
+
+.hide {
+  display: none;
+}
+
+.show {
+  position: absolute;
+  animation: mymove 5s;
+}
+
+.apple {
+  color: white;
+  font-size: 2rem;
+  transform: rotate(45deg);
+
+}
+@keyframes mymove {
+  0%   {left: 500px;}
+  100% {left: 3300px;}
+
 }
