@@ -25,20 +25,32 @@ $tab: #38c764;
   input {
     border-radius: 100px;
     border: none;
-    width: 300px;
+    width: 270px;
     height: 40px;
+    outline: none;
+    transition-duration: .2s;
   }
+
+  input:hover {
+    transform: scale(1.1);
+  }
+
   button {
     height: 40px;
     width: 100px;
-    margin-left: 8px;
+    margin-left: 15px;
     border-radius: 100px;
     border: none;
     background: $primaryColor;
     color: white;
     border: none;
     cursor: pointer;
-
+    transition-duration: .3s;
+    outline: none;
+  }
+  button:hover {
+    background: $tab;
+    transform: scale(.9);
   }
 
 }
